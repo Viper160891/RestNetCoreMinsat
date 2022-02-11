@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Minsait.Data", "Minsait.Data", "{39CAD400-CE73-4BEB-B0FF-8531734E3A22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Minsait.NetCoreService", "Minsait.NetCoreService", "{180232D4-E4D3-4FD3-8E8C-DADBCED7E7B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Minsait.Test", "Minsait.Test", "{4C9A3DA0-B878-4F33-AE06-41ADF5520731}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minsair.Models", "Minsair.Models\Minsair.Models.csproj", "{A29308DE-6BA7-4583-BB4A-AC6AC6762B0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minsair.DataAcces", "Minsair.DataAcces\Minsair.DataAcces.csproj", "{41AC4C20-A376-40FA-AD96-369C5207E8D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minsair.Dapper", "Minsair.Dapper\Minsair.Dapper.csproj", "{996FAA31-5F43-4163-BD40-6F0B6DC028F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minsair.Repositories", "Minsair.Repositories\Minsair.Repositories.csproj", "{1D0879D7-C277-4627-8838-980E34B4D934}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minsair.Api", "Minsair.Api\Minsair.Api.csproj", "{06609F88-3550-4E86-AC3D-BD2029B0D7F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A29308DE-6BA7-4583-BB4A-AC6AC6762B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A29308DE-6BA7-4583-BB4A-AC6AC6762B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A29308DE-6BA7-4583-BB4A-AC6AC6762B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A29308DE-6BA7-4583-BB4A-AC6AC6762B0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41AC4C20-A376-40FA-AD96-369C5207E8D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41AC4C20-A376-40FA-AD96-369C5207E8D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41AC4C20-A376-40FA-AD96-369C5207E8D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41AC4C20-A376-40FA-AD96-369C5207E8D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{996FAA31-5F43-4163-BD40-6F0B6DC028F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{996FAA31-5F43-4163-BD40-6F0B6DC028F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{996FAA31-5F43-4163-BD40-6F0B6DC028F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{996FAA31-5F43-4163-BD40-6F0B6DC028F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D0879D7-C277-4627-8838-980E34B4D934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D0879D7-C277-4627-8838-980E34B4D934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D0879D7-C277-4627-8838-980E34B4D934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D0879D7-C277-4627-8838-980E34B4D934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06609F88-3550-4E86-AC3D-BD2029B0D7F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06609F88-3550-4E86-AC3D-BD2029B0D7F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06609F88-3550-4E86-AC3D-BD2029B0D7F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06609F88-3550-4E86-AC3D-BD2029B0D7F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A29308DE-6BA7-4583-BB4A-AC6AC6762B0B} = {39CAD400-CE73-4BEB-B0FF-8531734E3A22}
+		{41AC4C20-A376-40FA-AD96-369C5207E8D7} = {39CAD400-CE73-4BEB-B0FF-8531734E3A22}
+		{996FAA31-5F43-4163-BD40-6F0B6DC028F1} = {39CAD400-CE73-4BEB-B0FF-8531734E3A22}
+		{1D0879D7-C277-4627-8838-980E34B4D934} = {39CAD400-CE73-4BEB-B0FF-8531734E3A22}
+		{06609F88-3550-4E86-AC3D-BD2029B0D7F6} = {180232D4-E4D3-4FD3-8E8C-DADBCED7E7B9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C22DE808-0C0F-4B3E-BF85-004A352FA976}
+	EndGlobalSection
+EndGlobal
